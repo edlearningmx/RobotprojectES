@@ -34,6 +34,9 @@ SampleLoginTest
     Click Element    link=Logout
     Close Browser
     Log              Text Completed
+
+MySecondTest
+    Log    Hello World...
     
 *** Variables ***
 ${URL}   https://opensource-demo.orangehrmlive.com/ 
